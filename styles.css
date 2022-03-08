@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #bedcfa;
+  text-align: center;
+}
+.heading {
+  padding: 50px 0px 25px 0px;
+}
+.dice-box {
+  background-color: #98acf8;
+  margin: 0px 300px 0px;
+  border-radius: 3rem;
+}
+h3 {
+  padding: 50px 0px 0px;
+}
+.dice {
+  padding: 25px 75px 25px 75px;
+  width: 500px;
+}
+.instruction {
+  padding: 15px;
+  font-size: 1.5rem;
+}
+button {
+  width: 250px;
+  background-color: #7c3bb8 !important;
+  margin: 20px;
+}
