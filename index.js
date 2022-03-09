@@ -2,6 +2,8 @@
 var dice = [1,2,3,4,5,6]
 var diceOneSrc = document.getElementById("dice1");
 var diceTwoSrc = document.getElementById("dice2");
+var scoreP1 = 0
+var scoreP2 = 0
 
 function rollDice1() {
     
@@ -51,7 +53,13 @@ function onWin(p1,p2){
     } else if (p1 > p2) {
         document.getElementById("player1Notif").innerHTML = "Winner!";
         document.getElementById("player2Notif").innerHTML = "Loser!"; 
+        scoreP1++;
+        document.getElementById("scorePL1").innerHTML = scoreP1; 
+
     } else if (p1 < p2) {
         document.getElementById("player1Notif").innerHTML = "Loser!";
         document.getElementById("player2Notif").innerHTML = "Winner!"; 
+        scoreP2++;
+        document.getElementById("scorePL2").innerHTML = scoreP2; 
+
 }};
